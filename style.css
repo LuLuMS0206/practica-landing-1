@@ -1,0 +1,92 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+/* FUENTES */
+@font-face {
+    font-family: 'AvenirBlack';
+    src: url('./source/font/Avenir\ Black.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'AvenirLight';
+    src: url('./source/font/Avenir\ Light.ttf.ttf') format('truetype');
+  }
+
+
+.content-max {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section-one__content{
+    padding-top: 3rem;
+}
+
+.button-explore{
+border-radius: 36px;
+background-color: #252525;
+border: none;
+color: rgba(255, 255, 255, 0.966);
+padding: 1rem 3rem;
+margin-top: 2rem;
+font-size: 18px;
+font-family: 'AvenirLight', 'Lucida Sans';
+}
+
+.button-explore:hover{
+    cursor: pointer;
+    background-color:#414141 ;
+}
+
+.title{
+    color: #252525;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'AvenirBlack', 'Lucida Sans';
+    line-height: 4.5rem;
+}
+
+.text{
+    color: #252525CC;
+    width: 24rem;
+    margin-top: 2rem;
+    font-family: 'AvenirLight', 'Lucida Sans';
+    font-size: 20px;
+    line-height: 35.52px
+}
+
+.section-one{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.section-one-img{
+    display: flex;
+}
+
+.section-one-img__img{
+ width: 28rem;
+}
+
+.section-two{
+    display: flex;
+    background-color: #252525;
+    color: #FFFFFFCC;
+    margin-top: 4rem;
+    border-radius: 1rem;
+    padding: 2rem;
+
+}
+
+.section-two__text{
+    font-size: 24px;
+    font-family: 'AvenirLights';
+    margin-top: 1rem;
+}
+
+.section-two__title{
+    margin-top: 0.5rem;
+}
